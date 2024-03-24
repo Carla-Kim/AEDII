@@ -105,8 +105,7 @@ class FuncionesTest {
         assertFalse(funciones.todosPares(new int[]{6, 3, 14, 20}));
         assertFalse(funciones.todosPares(new int[]{6, 2, 14, 7}));
     }
-}
-/*
+
     @Test
     void testPrefijo() {
         assertTrue(funciones.esPrefijo("abcde", "abcde"));
@@ -125,4 +124,4 @@ class FuncionesTest {
         assertFalse(funciones.esSufijo("edcba", "cba"));
     }
 }
-*/
+                                    
