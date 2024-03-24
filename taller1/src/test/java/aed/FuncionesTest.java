@@ -97,8 +97,7 @@ class FuncionesTest {
         assertTrue(funciones.tienePrimo(new int[]{1,4,6,7}));
         assertTrue(funciones.tienePrimo(new int[]{2, 5, 11}));
     }
-}
-/*
+
     @Test
     void testTodosPares() {
         assertTrue(funciones.todosPares(new int[]{6, 2, 14, 20}));
@@ -106,7 +105,8 @@ class FuncionesTest {
         assertFalse(funciones.todosPares(new int[]{6, 3, 14, 20}));
         assertFalse(funciones.todosPares(new int[]{6, 2, 14, 7}));
     }
-
+}
+/*
     @Test
     void testPrefijo() {
         assertTrue(funciones.esPrefijo("abcde", "abcde"));
