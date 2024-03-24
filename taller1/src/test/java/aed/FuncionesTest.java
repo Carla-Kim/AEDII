@@ -81,15 +81,15 @@ class FuncionesTest {
         assertEquals(10, funciones.sumatoria(new int[]{2,3,5}));
         assertEquals(-8, funciones.sumatoria(new int[]{5, -25, 4, 8}));
     }
-}
-/*
+
     @Test
     void testBusqueda() {
         assertEquals(0, funciones.busqueda(new int[]{1, 2, 3}, 1));
         assertEquals(2, funciones.busqueda(new int[]{10, 11, 15, 24}, 15));
         assertEquals(3, funciones.busqueda(new int[]{10, 11, 15, 24}, 24));
     }
-
+}
+/*
     @Test
     void testTienePrimo() {
         assertFalse(funciones.tienePrimo(new int[]{1,4,6,15}));
