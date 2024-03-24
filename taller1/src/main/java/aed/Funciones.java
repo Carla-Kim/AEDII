@@ -84,8 +84,15 @@ class Funciones {
     }
 
     boolean todosPares(int[] numeros) {
-        // COMPLETAR
-        return false;
+        boolean sonPares = false;
+        for(int numero : numeros) {
+            if(esPar(numero) == true) {
+                sonPares = true;
+            } else {
+                return false;
+            }
+        }
+        return sonPares;
     }
 
     boolean esPrefijo(String s1, String s2) {
