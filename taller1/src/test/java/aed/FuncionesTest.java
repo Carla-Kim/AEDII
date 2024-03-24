@@ -88,8 +88,7 @@ class FuncionesTest {
         assertEquals(2, funciones.busqueda(new int[]{10, 11, 15, 24}, 15));
         assertEquals(3, funciones.busqueda(new int[]{10, 11, 15, 24}, 24));
     }
-}
-/*
+
     @Test
     void testTienePrimo() {
         assertFalse(funciones.tienePrimo(new int[]{1,4,6,15}));
@@ -98,7 +97,8 @@ class FuncionesTest {
         assertTrue(funciones.tienePrimo(new int[]{1,4,6,7}));
         assertTrue(funciones.tienePrimo(new int[]{2, 5, 11}));
     }
-
+}
+/*
     @Test
     void testTodosPares() {
         assertTrue(funciones.todosPares(new int[]{6, 2, 14, 20}));

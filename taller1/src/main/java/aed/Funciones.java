@@ -75,7 +75,11 @@ class Funciones {
     }
 
     boolean tienePrimo(int[] numeros) {
-        // COMPLETAR
+        for(int numero : numeros) {
+            if(esPrimo(numero) == true) {
+                return true;
+            }
+        }
         return false;
     }
 
