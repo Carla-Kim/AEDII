@@ -1,8 +1,5 @@
 package aed;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class Funciones {
     int cuadrado(int x) {
         int res = x * x;
