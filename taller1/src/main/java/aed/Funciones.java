@@ -57,8 +57,11 @@ class Funciones {
     }
 
     int sumatoria(int[] numeros) {
-        // COMPLETAR
-        return 0;
+        int res = 0;
+        for(int numero : numeros) {
+            res += numero;
+        }
+        return res;
     }
 
     int busqueda(int[] numeros, int buscado) {
