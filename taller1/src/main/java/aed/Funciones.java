@@ -65,8 +65,13 @@ class Funciones {
     }
 
     int busqueda(int[] numeros, int buscado) {
-        // COMPLETAR
-        return 0;
+        int position = 0;
+        for(int i = 0; i < numeros.length; i++) {
+            if(numeros[i] == buscado) {
+                position = i;
+            }
+        }
+        return position;
     }
 
     boolean tienePrimo(int[] numeros) {
