@@ -73,8 +73,7 @@ class FuncionesTest {
         assertTrue(funciones.esPrimo(3));
         assertTrue(funciones.esPrimo(17));
     }
-}
-/*
+
     @Test
     void testSumatoria() {
         assertEquals(0, funciones.sumatoria(new int[]{}));
@@ -82,7 +81,8 @@ class FuncionesTest {
         assertEquals(10, funciones.sumatoria(new int[]{2,3,5}));
         assertEquals(-8, funciones.sumatoria(new int[]{5, -25, 4, 8}));
     }
-
+}
+/*
     @Test
     void testBusqueda() {
         assertEquals(0, funciones.busqueda(new int[]{1, 2, 3}, 1));
