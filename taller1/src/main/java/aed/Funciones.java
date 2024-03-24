@@ -34,21 +34,25 @@ class Funciones {
     }
 
     int factorialRecursivo(int n) {
-        int numero = n;
-        int res = 1;
-        while(numero != 1) {
-            res = n * factorialRecursivo(numero--);
+        if (n >= 1) {
+            return n * factorialRecursivo(n - 1);
+        } else {
+            return 1;
         }
-        return res;
     }
 
     boolean esPrimo(int n) {
         double euclides = Math.floor(Math.sqrt(n));
-        for(int i = 1; i <= euclides; i--);
-            
+        
+        if (n < 2) {
+            return false;
+        }
+
+        for(int i = 2; i <= euclides; i++){;
             if(n % i == 0){
                 return false;
-            } 
+            }
+        }
         return true;
     }
 

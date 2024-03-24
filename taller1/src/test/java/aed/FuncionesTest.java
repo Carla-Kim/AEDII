@@ -62,8 +62,7 @@ class FuncionesTest {
         assertEquals(120, funciones.factorialRecursivo(5));
         assertEquals(3628800, funciones.factorialRecursivo(10));
     }
-}
-/*
+
     @Test
     void testPrimo() {
         assertFalse(funciones.esPrimo(0));
@@ -74,7 +73,8 @@ class FuncionesTest {
         assertTrue(funciones.esPrimo(3));
         assertTrue(funciones.esPrimo(17));
     }
-
+}
+/*
     @Test
     void testSumatoria() {
         assertEquals(0, funciones.sumatoria(new int[]{}));
