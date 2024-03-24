@@ -114,8 +114,7 @@ class FuncionesTest {
         assertFalse(funciones.esPrefijo("abcde", "abcdfg"));
         assertFalse(funciones.esPrefijo("abcde", "abc"));
     }
-}
-/*
+
     @Test
     void testSufijo() {
         assertTrue(funciones.esSufijo("edcba", "edcba"));
@@ -125,4 +124,4 @@ class FuncionesTest {
         assertFalse(funciones.esSufijo("edcba", "cba"));
     }
 }
-*/
+                                    
