@@ -2,46 +2,36 @@ package aed;
 
 public class Fecha {
 
-    private int _dia;
-    private int _mes;
-    private Fecha _fecha;
+    private int dia;
+    private int mes;
+    private Fecha fecha;
 
     public Fecha(int dia, int mes) {
-        if dia <= diasEnMes(mes) && dia > 0 && mes <= 12 && mes > 0 {
-            set_dia(dia);
-            set_mes(mes);
-        }
-    }
-
-    void set_dia(int dia) {
-        _dia = dia;
-    }
-
-    void set_mes(int mes) {
-        _mes = mes;
+        this.dia = dia;
+        this.mes = mes;
     }
 
     public Fecha(Fecha fecha) {
-        this._fecha = new Fecha(fecha.dia(), fecha.mes());
-        // que
+        this.dia = fecha.dia;
+        this.mes = fecha.mes;
     }
 
     public Integer dia() {
-        return _dia;
+        return dia;
     }
 
     public Integer mes() {
-        return _mes;
+        return mes;
     }
 
     public String toString() {
-        return str(_dia) + "/" + str(_mes);
+        return str(dia) + "/" + str(mes);
         // qie
     }
     
     @Override
     public boolean equals(Object otra) {
-       if otra.dia() == _dia && otra.mes() == _mes {
+       if otra.dia() == this.dia && otra.mes() == this.mes {
             return true;
        } else {
             return false;
